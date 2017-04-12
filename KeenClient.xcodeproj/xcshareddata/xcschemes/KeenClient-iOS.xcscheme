@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "017EE11D14E30C96000F3868"
-               BuildableName = "libKeenClient iOS.a"
-               BlueprintName = "KeenClient iOS"
+               BuildableName = "libKeenClient-iOS.a"
+               BlueprintName = "KeenClient-iOS"
                ReferencedContainer = "container:KeenClient.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,8 +43,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "017EE11D14E30C96000F3868"
-            BuildableName = "libKeenClient iOS.a"
-            BlueprintName = "KeenClient iOS"
+            BuildableName = "libKeenClient-iOS.a"
+            BlueprintName = "KeenClient-iOS"
             ReferencedContainer = "container:KeenClient.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,8 +65,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "017EE11D14E30C96000F3868"
-            BuildableName = "libKeenClient iOS.a"
-            BlueprintName = "KeenClient iOS"
+            BuildableName = "libKeenClient-iOS.a"
+            BlueprintName = "KeenClient-iOS"
             ReferencedContainer = "container:KeenClient.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -83,8 +83,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "017EE11D14E30C96000F3868"
-            BuildableName = "libKeenClient iOS.a"
-            BlueprintName = "KeenClient iOS"
+            BuildableName = "libKeenClient-iOS.a"
+            BlueprintName = "KeenClient-iOS"
             ReferencedContainer = "container:KeenClient.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

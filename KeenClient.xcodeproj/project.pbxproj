@@ -46,7 +46,7 @@
 		017EE12814E30C96000F3868 /* KeenClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 017EE12714E30C96000F3868 /* KeenClient.m */; };
 		017EE13214E30C96000F3868 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017EE13114E30C96000F3868 /* UIKit.framework */; };
 		017EE13314E30C96000F3868 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017EE12114E30C96000F3868 /* Foundation.framework */; };
-		017EE13614E30C96000F3868 /* libKeenClient iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 017EE11E14E30C96000F3868 /* libKeenClient iOS.a */; };
+		017EE13614E30C96000F3868 /* libKeenClient-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 017EE11E14E30C96000F3868 /* libKeenClient-iOS.a */; };
 		017EE13C14E30C96000F3868 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 017EE13A14E30C96000F3868 /* InfoPlist.strings */; };
 		017EE13F14E30C96000F3868 /* KeenClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 017EE13E14E30C96000F3868 /* KeenClientTests.m */; };
 		01BA1B0514E895BC00CF9F84 /* KeenConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 01BA1B0314E895BC00CF9F84 /* KeenConstants.h */; };
@@ -130,7 +130,7 @@
 		015D30881822E8D200F8735B /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
 		015D30891822E8D200F8735B /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
 		015D308A1822E8D200F8735B /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
-		017EE11E14E30C96000F3868 /* libKeenClient iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libKeenClient iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		017EE11E14E30C96000F3868 /* libKeenClient-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libKeenClient-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		017EE12114E30C96000F3868 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		017EE12514E30C96000F3868 /* KeenClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KeenClient-Prefix.pch"; sourceTree = "<group>"; };
 		017EE12614E30C96000F3868 /* KeenClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeenClient.h; sourceTree = "<group>"; };
@@ -195,7 +195,7 @@
 				015D308B1822E8D200F8735B /* libOCMock.a in Frameworks */,
 				017EE13214E30C96000F3868 /* UIKit.framework in Frameworks */,
 				017EE13314E30C96000F3868 /* Foundation.framework in Frameworks */,
-				017EE13614E30C96000F3868 /* libKeenClient iOS.a in Frameworks */,
+				017EE13614E30C96000F3868 /* libKeenClient-iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +255,7 @@
 		017EE11F14E30C96000F3868 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				017EE11E14E30C96000F3868 /* libKeenClient iOS.a */,
+				017EE11E14E30C96000F3868 /* libKeenClient-iOS.a */,
 				017EE12E14E30C96000F3868 /* KeenClientTests.xctest */,
 				0111013314EF709A009794A5 /* libKeenClient-Simulator.a */,
 				0111014B14EF70AB009794A5 /* libKeenClient-Device.a */,
@@ -452,9 +452,9 @@
 			productReference = 0111014B14EF70AB009794A5 /* libKeenClient-Device.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		017EE11D14E30C96000F3868 /* KeenClient iOS */ = {
+		017EE11D14E30C96000F3868 /* KeenClient-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 017EE14214E30C96000F3868 /* Build configuration list for PBXNativeTarget "KeenClient iOS" */;
+			buildConfigurationList = 017EE14214E30C96000F3868 /* Build configuration list for PBXNativeTarget "KeenClient-iOS" */;
 			buildPhases = (
 				017EE11A14E30C96000F3868 /* Sources */,
 				017EE11B14E30C96000F3868 /* Frameworks */,
@@ -464,9 +464,9 @@
 			);
 			dependencies = (
 			);
-			name = "KeenClient iOS";
+			name = "KeenClient-iOS";
 			productName = KeenClient;
-			productReference = 017EE11E14E30C96000F3868 /* libKeenClient iOS.a */;
+			productReference = 017EE11E14E30C96000F3868 /* libKeenClient-iOS.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		017EE12D14E30C96000F3868 /* KeenClientTests */ = {
@@ -538,7 +538,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				017EE11D14E30C96000F3868 /* KeenClient iOS */,
+				017EE11D14E30C96000F3868 /* KeenClient-iOS */,
 				017EE12D14E30C96000F3868 /* KeenClientTests */,
 				0111011C14EF709A009794A5 /* KeenClient-Simulator */,
 				0111013414EF70AB009794A5 /* KeenClient-Device */,
@@ -672,7 +672,7 @@
 		};
 		017EE13514E30C96000F3868 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 017EE11D14E30C96000F3868 /* KeenClient iOS */;
+			target = 017EE11D14E30C96000F3868 /* KeenClient-iOS */;
 			targetProxy = 017EE13414E30C96000F3868 /* PBXContainerItemProxy */;
 		};
 		1296398B19C10B4500B2B653 /* PBXTargetDependency */ = {
@@ -1044,7 +1044,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		017EE14214E30C96000F3868 /* Build configuration list for PBXNativeTarget "KeenClient iOS" */ = {
+		017EE14214E30C96000F3868 /* Build configuration list for PBXNativeTarget "KeenClient-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				017EE14314E30C96000F3868 /* Debug */,
